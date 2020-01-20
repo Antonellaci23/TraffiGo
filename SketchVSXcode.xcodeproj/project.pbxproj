@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		807A4FD123D60B3B0091D823 /* SketchVSXcode WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 807A4FD023D60B3B0091D823 /* SketchVSXcode WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		807A4FD723D60B3B0091D823 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807A4FD523D60B3B0091D823 /* Interface.storyboard */; };
+		807A4FD923D60B3B0091D823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807A4FD823D60B3B0091D823 /* Assets.xcassets */; };
+		807A4FE023D60B3B0091D823 /* SketchVSXcode WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 807A4FDF23D60B3B0091D823 /* SketchVSXcode WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		807A4FE523D60B3B0091D823 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A4FE423D60B3B0091D823 /* ContentView.swift */; };
+		807A4FE723D60B3B0091D823 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A4FE623D60B3B0091D823 /* HostingController.swift */; };
+		807A4FE923D60B3B0091D823 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A4FE823D60B3B0091D823 /* ExtensionDelegate.swift */; };
+		807A4FEB23D60B3B0091D823 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A4FEA23D60B3B0091D823 /* NotificationController.swift */; };
+		807A4FED23D60B3B0091D823 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A4FEC23D60B3B0091D823 /* NotificationView.swift */; };
+		807A4FEF23D60B3C0091D823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807A4FEE23D60B3C0091D823 /* Assets.xcassets */; };
+		807A4FF223D60B3C0091D823 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807A4FF123D60B3C0091D823 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		807A4FD223D60B3B0091D823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807A4FC623D60B3A0091D823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807A4FCF23D60B3B0091D823;
+			remoteInfo = "SketchVSXcode WatchKit App";
+		};
+		807A4FE123D60B3B0091D823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807A4FC623D60B3A0091D823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807A4FDE23D60B3B0091D823;
+			remoteInfo = "SketchVSXcode WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		807A4FFA23D60B3C0091D823 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				807A4FE023D60B3B0091D823 /* SketchVSXcode WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807A4FFE23D60B3C0091D823 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				807A4FD123D60B3B0091D823 /* SketchVSXcode WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		807A4FCC23D60B3B0091D823 /* SketchVSXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SketchVSXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		807A4FD023D60B3B0091D823 /* SketchVSXcode WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SketchVSXcode WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		807A4FD623D60B3B0091D823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		807A4FD823D60B3B0091D823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		807A4FDA23D60B3B0091D823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807A4FDF23D60B3B0091D823 /* SketchVSXcode WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SketchVSXcode WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		807A4FE423D60B3B0091D823 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		807A4FE623D60B3B0091D823 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		807A4FE823D60B3B0091D823 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		807A4FEA23D60B3B0091D823 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		807A4FEC23D60B3B0091D823 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		807A4FEE23D60B3C0091D823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		807A4FF123D60B3C0091D823 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		807A4FF323D60B3C0091D823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807A4FF423D60B3C0091D823 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		807A4FDC23D60B3B0091D823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		807A4FC523D60B3A0091D823 = {
+			isa = PBXGroup;
+			children = (
+				807A4FD423D60B3B0091D823 /* SketchVSXcode WatchKit App */,
+				807A4FE323D60B3B0091D823 /* SketchVSXcode WatchKit Extension */,
+				807A4FCD23D60B3B0091D823 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		807A4FCD23D60B3B0091D823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				807A4FCC23D60B3B0091D823 /* SketchVSXcode.app */,
+				807A4FD023D60B3B0091D823 /* SketchVSXcode WatchKit App.app */,
+				807A4FDF23D60B3B0091D823 /* SketchVSXcode WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		807A4FD423D60B3B0091D823 /* SketchVSXcode WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				807A4FD523D60B3B0091D823 /* Interface.storyboard */,
+				807A4FD823D60B3B0091D823 /* Assets.xcassets */,
+				807A4FDA23D60B3B0091D823 /* Info.plist */,
+			);
+			path = "SketchVSXcode WatchKit App";
+			sourceTree = "<group>";
+		};
+		807A4FE323D60B3B0091D823 /* SketchVSXcode WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				807A4FE423D60B3B0091D823 /* ContentView.swift */,
+				807A4FE623D60B3B0091D823 /* HostingController.swift */,
+				807A4FE823D60B3B0091D823 /* ExtensionDelegate.swift */,
+				807A4FEA23D60B3B0091D823 /* NotificationController.swift */,
+				807A4FEC23D60B3B0091D823 /* NotificationView.swift */,
+				807A4FEE23D60B3C0091D823 /* Assets.xcassets */,
+				807A4FF323D60B3C0091D823 /* Info.plist */,
+				807A4FF423D60B3C0091D823 /* PushNotificationPayload.apns */,
+				807A4FF023D60B3C0091D823 /* Preview Content */,
+			);
+			path = "SketchVSXcode WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		807A4FF023D60B3C0091D823 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				807A4FF123D60B3C0091D823 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		807A4FCB23D60B3B0091D823 /* SketchVSXcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807A4FFF23D60B3C0091D823 /* Build configuration list for PBXNativeTarget "SketchVSXcode" */;
+			buildPhases = (
+				807A4FCA23D60B3B0091D823 /* Resources */,
+				807A4FFE23D60B3C0091D823 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				807A4FD323D60B3B0091D823 /* PBXTargetDependency */,
+			);
+			name = SketchVSXcode;
+			productName = SketchVSXcode;
+			productReference = 807A4FCC23D60B3B0091D823 /* SketchVSXcode.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		807A4FCF23D60B3B0091D823 /* SketchVSXcode WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807A4FFB23D60B3C0091D823 /* Build configuration list for PBXNativeTarget "SketchVSXcode WatchKit App" */;
+			buildPhases = (
+				807A4FCE23D60B3B0091D823 /* Resources */,
+				807A4FFA23D60B3C0091D823 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				807A4FE223D60B3B0091D823 /* PBXTargetDependency */,
+			);
+			name = "SketchVSXcode WatchKit App";
+			productName = "SketchVSXcode WatchKit App";
+			productReference = 807A4FD023D60B3B0091D823 /* SketchVSXcode WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		807A4FDE23D60B3B0091D823 /* SketchVSXcode WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807A4FF723D60B3C0091D823 /* Build configuration list for PBXNativeTarget "SketchVSXcode WatchKit Extension" */;
+			buildPhases = (
+				807A4FDB23D60B3B0091D823 /* Sources */,
+				807A4FDC23D60B3B0091D823 /* Frameworks */,
+				807A4FDD23D60B3B0091D823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SketchVSXcode WatchKit Extension";
+			productName = "SketchVSXcode WatchKit Extension";
+			productReference = 807A4FDF23D60B3B0091D823 /* SketchVSXcode WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		807A4FC623D60B3A0091D823 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Antonella Cirma";
+				TargetAttributes = {
+					807A4FCB23D60B3B0091D823 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					807A4FCF23D60B3B0091D823 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					807A4FDE23D60B3B0091D823 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 807A4FC923D60B3A0091D823 /* Build configuration list for PBXProject "SketchVSXcode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 807A4FC523D60B3A0091D823;
+			productRefGroup = 807A4FCD23D60B3B0091D823 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				807A4FCB23D60B3B0091D823 /* SketchVSXcode */,
+				807A4FCF23D60B3B0091D823 /* SketchVSXcode WatchKit App */,
+				807A4FDE23D60B3B0091D823 /* SketchVSXcode WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		807A4FCA23D60B3B0091D823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807A4FCE23D60B3B0091D823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807A4FD923D60B3B0091D823 /* Assets.xcassets in Resources */,
+				807A4FD723D60B3B0091D823 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807A4FDD23D60B3B0091D823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807A4FF223D60B3C0091D823 /* Preview Assets.xcassets in Resources */,
+				807A4FEF23D60B3C0091D823 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		807A4FDB23D60B3B0091D823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807A4FE723D60B3B0091D823 /* HostingController.swift in Sources */,
+				807A4FE523D60B3B0091D823 /* ContentView.swift in Sources */,
+				807A4FEB23D60B3B0091D823 /* NotificationController.swift in Sources */,
+				807A4FE923D60B3B0091D823 /* ExtensionDelegate.swift in Sources */,
+				807A4FED23D60B3B0091D823 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		807A4FD323D60B3B0091D823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 807A4FCF23D60B3B0091D823 /* SketchVSXcode WatchKit App */;
+			targetProxy = 807A4FD223D60B3B0091D823 /* PBXContainerItemProxy */;
+		};
+		807A4FE223D60B3B0091D823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 807A4FDE23D60B3B0091D823 /* SketchVSXcode WatchKit Extension */;
+			targetProxy = 807A4FE123D60B3B0091D823 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		807A4FD523D60B3B0091D823 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807A4FD623D60B3B0091D823 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		807A4FF523D60B3C0091D823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		807A4FF623D60B3C0091D823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		807A4FF823D60B3C0091D823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SketchVSXcode WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 22SRFN3JA2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SketchVSXcode WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.antonellacirma.SketchVSXcode.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		807A4FF923D60B3C0091D823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SketchVSXcode WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 22SRFN3JA2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SketchVSXcode WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.antonellacirma.SketchVSXcode.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		807A4FFC23D60B3C0091D823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22SRFN3JA2;
+				IBSC_MODULE = SketchVSXcode_WatchKit_Extension;
+				INFOPLIST_FILE = "SketchVSXcode WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = it.antonellacirma.SketchVSXcode.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		807A4FFD23D60B3C0091D823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22SRFN3JA2;
+				IBSC_MODULE = SketchVSXcode_WatchKit_Extension;
+				INFOPLIST_FILE = "SketchVSXcode WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = it.antonellacirma.SketchVSXcode.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		807A500023D60B3C0091D823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22SRFN3JA2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.antonellacirma.SketchVSXcode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		807A500123D60B3C0091D823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22SRFN3JA2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.antonellacirma.SketchVSXcode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		807A4FC923D60B3A0091D823 /* Build configuration list for PBXProject "SketchVSXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807A4FF523D60B3C0091D823 /* Debug */,
+				807A4FF623D60B3C0091D823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807A4FF723D60B3C0091D823 /* Build configuration list for PBXNativeTarget "SketchVSXcode WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807A4FF823D60B3C0091D823 /* Debug */,
+				807A4FF923D60B3C0091D823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807A4FFB23D60B3C0091D823 /* Build configuration list for PBXNativeTarget "SketchVSXcode WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807A4FFC23D60B3C0091D823 /* Debug */,
+				807A4FFD23D60B3C0091D823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807A4FFF23D60B3C0091D823 /* Build configuration list for PBXNativeTarget "SketchVSXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807A500023D60B3C0091D823 /* Debug */,
+				807A500123D60B3C0091D823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 807A4FC623D60B3A0091D823 /* Project object */;
+}
