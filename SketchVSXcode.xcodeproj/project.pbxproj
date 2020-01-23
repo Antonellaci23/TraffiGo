@@ -11,13 +11,15 @@
 		807A4FD723D60B3B0091D823 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807A4FD523D60B3B0091D823 /* Interface.storyboard */; };
 		807A4FD923D60B3B0091D823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807A4FD823D60B3B0091D823 /* Assets.xcassets */; };
 		807A4FE023D60B3B0091D823 /* SketchVSXcode WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 807A4FDF23D60B3B0091D823 /* SketchVSXcode WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		807A4FE523D60B3B0091D823 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A4FE423D60B3B0091D823 /* ContentView.swift */; };
+		807A4FE523D60B3B0091D823 /* First View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A4FE423D60B3B0091D823 /* First View.swift */; };
 		807A4FE723D60B3B0091D823 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A4FE623D60B3B0091D823 /* HostingController.swift */; };
 		807A4FE923D60B3B0091D823 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A4FE823D60B3B0091D823 /* ExtensionDelegate.swift */; };
 		807A4FEB23D60B3B0091D823 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A4FEA23D60B3B0091D823 /* NotificationController.swift */; };
 		807A4FED23D60B3B0091D823 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A4FEC23D60B3B0091D823 /* NotificationView.swift */; };
 		807A4FEF23D60B3C0091D823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807A4FEE23D60B3C0091D823 /* Assets.xcassets */; };
 		807A4FF223D60B3C0091D823 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807A4FF123D60B3C0091D823 /* Preview Assets.xcassets */; };
+		807A500323D6F69D0091D823 /* Second View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A500223D6F69D0091D823 /* Second View.swift */; };
+		807A500523D74CB70091D823 /* Third.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A500423D74CB70091D823 /* Third.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +71,7 @@
 		807A4FD823D60B3B0091D823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		807A4FDA23D60B3B0091D823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		807A4FDF23D60B3B0091D823 /* SketchVSXcode WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SketchVSXcode WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		807A4FE423D60B3B0091D823 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		807A4FE423D60B3B0091D823 /* First View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First View.swift"; sourceTree = "<group>"; };
 		807A4FE623D60B3B0091D823 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		807A4FE823D60B3B0091D823 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		807A4FEA23D60B3B0091D823 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,8 @@
 		807A4FF123D60B3C0091D823 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		807A4FF323D60B3C0091D823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		807A4FF423D60B3C0091D823 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		807A500223D6F69D0091D823 /* Second View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Second View.swift"; sourceTree = "<group>"; };
+		807A500423D74CB70091D823 /* Third.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Third.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +127,9 @@
 		807A4FE323D60B3B0091D823 /* SketchVSXcode WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				807A4FE423D60B3B0091D823 /* ContentView.swift */,
+				807A4FE423D60B3B0091D823 /* First View.swift */,
+				807A500223D6F69D0091D823 /* Second View.swift */,
+				807A500423D74CB70091D823 /* Third.swift */,
 				807A4FE623D60B3B0091D823 /* HostingController.swift */,
 				807A4FE823D60B3B0091D823 /* ExtensionDelegate.swift */,
 				807A4FEA23D60B3B0091D823 /* NotificationController.swift */,
@@ -273,10 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				807A4FE723D60B3B0091D823 /* HostingController.swift in Sources */,
-				807A4FE523D60B3B0091D823 /* ContentView.swift in Sources */,
+				807A500323D6F69D0091D823 /* Second View.swift in Sources */,
+				807A4FE523D60B3B0091D823 /* First View.swift in Sources */,
 				807A4FEB23D60B3B0091D823 /* NotificationController.swift in Sources */,
 				807A4FE923D60B3B0091D823 /* ExtensionDelegate.swift in Sources */,
 				807A4FED23D60B3B0091D823 /* NotificationView.swift in Sources */,
+				807A500523D74CB70091D823 /* Third.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
