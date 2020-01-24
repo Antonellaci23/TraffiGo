@@ -20,6 +20,7 @@
 		807A4FF223D60B3C0091D823 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807A4FF123D60B3C0091D823 /* Preview Assets.xcassets */; };
 		807A500323D6F69D0091D823 /* Second View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A500223D6F69D0091D823 /* Second View.swift */; };
 		807A500523D74CB70091D823 /* Third.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807A500423D74CB70091D823 /* Third.swift */; };
+		80B7BB8C23DAEF52003BB52F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B7BB8B23DAEF52003BB52F /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		807A4FF423D60B3C0091D823 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		807A500223D6F69D0091D823 /* Second View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Second View.swift"; sourceTree = "<group>"; };
 		807A500423D74CB70091D823 /* Third.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Third.swift; sourceTree = "<group>"; };
+		80B7BB8B23DAEF52003BB52F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				807A4FE423D60B3B0091D823 /* First View.swift */,
+				80B7BB8B23DAEF52003BB52F /* SwiftyJSON.swift */,
 				807A500223D6F69D0091D823 /* Second View.swift */,
 				807A500423D74CB70091D823 /* Third.swift */,
 				807A4FE623D60B3B0091D823 /* HostingController.swift */,
@@ -281,6 +284,7 @@
 				807A4FE723D60B3B0091D823 /* HostingController.swift in Sources */,
 				807A500323D6F69D0091D823 /* Second View.swift in Sources */,
 				807A4FE523D60B3B0091D823 /* First View.swift in Sources */,
+				80B7BB8C23DAEF52003BB52F /* SwiftyJSON.swift in Sources */,
 				807A4FEB23D60B3B0091D823 /* NotificationController.swift in Sources */,
 				807A4FE923D60B3B0091D823 /* ExtensionDelegate.swift in Sources */,
 				807A4FED23D60B3B0091D823 /* NotificationView.swift in Sources */,
